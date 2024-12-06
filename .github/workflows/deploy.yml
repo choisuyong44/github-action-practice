@@ -22,3 +22,8 @@ jobs:
         run : |
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
+
+      - name : Github Repo Secret
+        run : |
+          echo $MY_NAME
+          echo $MY_HOBBY
